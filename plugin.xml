@@ -5,7 +5,7 @@
     <!-- android -->
     <platform name="android">
     	<config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <meta-data android:name="android.max_aspect" android:value="ratio_float"/>
+            <meta-data android:name="android.max_aspect" android:value="2.1"/>
         </config-file>
     </platform>
 
