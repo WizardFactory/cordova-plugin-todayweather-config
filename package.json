@@ -6,7 +6,7 @@
     "id": "cordova-plugin-todayweather-config",
     "platforms": [
       "android",
-      "ios",
+      "ios"
     ]
   },
   "keywords": [
