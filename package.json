@@ -1,6 +1,6 @@
 {
-  "name": "TodayWeather iOS, Android Config",
-  "version": "0.0.2",
+  "name": "cordova-plugin-todayweather-config",
+  "version": "0.0.3",
   "description": "iOS, Android Config for TodayWeather",
   "cordova": {
     "id": "cordova-plugin-todayweather-config",
