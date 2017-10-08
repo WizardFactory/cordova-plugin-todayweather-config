@@ -20,5 +20,8 @@
           <string>ko</string>
         </array>
       </config-file>
+        <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
+            <false/>
+        </config-file>
     </platform>
 </plugin>
