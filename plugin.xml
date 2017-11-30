@@ -38,8 +38,5 @@
         <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
             <string>This app will use when you want to share weather</string>
         </config-file>
-        <config-file parent="" target="*-Info.plist">
-            <string>This app will use when you want to share weather</string>
-        </config-file>
     </platform>
 </plugin>
