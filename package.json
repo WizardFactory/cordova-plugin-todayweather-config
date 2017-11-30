@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-todayweather-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "iOS, Android Config for TodayWeather",
   "cordova": {
     "id": "cordova-plugin-todayweather-config",
@@ -14,6 +14,5 @@
     "cordova-android",
     "cordova-ios"
   ],
-  "author": "alec kim",
-  "license": "MIT"
+  "author": "alec kim"
 }
