@@ -1,27 +1,45 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-todayweather-config" version="0.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-todayweather-config" version="0.0.4" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>todayweather config</name>
 
     <!-- android -->
     <platform name="android">
-    	<config-file target="AndroidManifest.xml" parent="/manifest/application">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <meta-data android:name="android.max_aspect" android:value="2.1"/>
         </config-file>
     </platform>
 
     <!-- ios -->
     <platform name="ios">
-      <config-file parent="CFBundleDevelopmentRegion" target="*-Info.plist">
-        <string>ko_KR</string>
-      </config-file>
-      <config-file parent="CFBundleLocalizations" target="*-Info.plist">
-        <array>
-          <string>en</string>
-          <string>ko</string>
-        </array>
-      </config-file>
-        <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
+        <config-file parent="CFBundleDevelopmentRegion" target="*-Info.plist">
+            <string>ko_KR</string>
+        </config-file>
+        <config-file parent="CFBundleLocalizations" target="*-Info.plist">
+            <array>
+                <string>en</string>
+                <string>ko</string>
+            </array>
+        </config-file>
+        <config-file parent="ITSAppUsesNonExemptEncryption" target="*-Info.plist">
             <false/>
+        </config-file>
+        <config-file parent="NSBluetoothPeripheralUsageDescription" target="*-Info.plist">
+            <string>This app will use when you want to share weather</string>
+        </config-file>
+        <config-file parent="NSCalendarsUsageDescription" target="*-Info.plist">
+            <string>This app will use when you want to share weather</string>
+        </config-file>
+        <config-file parent="NSLocationAlwaysUsageDescription" target="*-Info.plist">
+            <string>This app requires constant access to your location in order to track your position, even when the screen is off.</string>
+        </config-file>
+        <config-file parent="NSMicrophoneUsageDescription" target="*-Info.plist">
+            <string>This app will use when you want to share weather</string>
+        </config-file>
+        <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
+            <string>This app will use when you want to share weather</string>
+        </config-file>
+        <config-file parent="" target="*-Info.plist">
+            <string>This app will use when you want to share weather</string>
         </config-file>
     </platform>
 </plugin>
